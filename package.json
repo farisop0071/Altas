@@ -1,0 +1,19 @@
+{
+  "name": "atlas-bot",
+  "version": "1.0.0",
+  "description": "Atlas - Advanced Discord Server Setup Bot by Faris (erenyeager.exp)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@napi-rs/canvas": "^0.1.44",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
